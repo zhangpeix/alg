@@ -1,10 +1,9 @@
 package org.test;
 
-import heapsort.HeapSort;
-
 import java.util.Random;
 
 import org.base.Base;
+import org.heapsort.HeapSort;
 import org.insertion.Insertion;
 import org.insertion.InsertionBianry;
 import org.insertion.InsertionIteration;
