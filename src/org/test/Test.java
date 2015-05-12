@@ -12,13 +12,14 @@ import org.maxsubarray.MaxArrayInfo;
 import org.maxsubarray.MaxSubArray;
 import org.merger.InversionCount;
 import org.merger.MergeSort;
+import org.quicksort.QuickSort;
 
 public class Test {
 
 	public static void main(String[] args) {
-		HeapSort base=new HeapSort(10);
-		base.insert(100);
-		base.increaseKey(3, 125);
+		Base base=new QuickSort(new int[]{1,1,1,1,1,1,1,1});
+		base.print();
+		base.sort();
 		base.print();
 	}
 	public static  void swap(int a,int b){
