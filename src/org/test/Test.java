@@ -17,10 +17,7 @@ import org.quicksort.QuickSort;
 public class Test {
 
 	public static void main(String[] args) {
-		Base base=new QuickSort(new int[]{1,1,1,1,1,1,1,1});
-		base.print();
-		base.sort();
-		base.print();
+		System.out.println(int.class.getName());
 	}
 	public static  void swap(int a,int b){
 		int temp=a;
